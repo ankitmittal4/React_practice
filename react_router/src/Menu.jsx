@@ -9,6 +9,9 @@ const Menu = () => {
       <NavLink exact="true" to="/contact" activeclassname="active_class">
         Contact Us
       </NavLink>
+      <NavLink exact="true" to="/service" activeclassname="active_class">
+        Contact Us
+      </NavLink>
       <br></br>
     </>
   );
