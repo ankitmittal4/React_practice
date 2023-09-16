@@ -16,8 +16,9 @@ const App = () => {
         <Route exact path="/" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/services" element={<Services />} />
-        <Route exact path="/user" element={<User />} />
-        <Route path="*" element={<Error />} />
+        {/* <Route exact path="/user" element={<User />} /> */}
+        <Route exact path="/user/:name/:course" element={<User />} />
+        <Route compt={<Error />} />
       </Routes>
     </>
   );

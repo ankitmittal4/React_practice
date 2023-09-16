@@ -15,7 +15,11 @@ const Menu = () => {
         Services
       </NavLink>
       <br></br>
-      <NavLink exact="true" to="/user" activeclassname="active_class">
+      <NavLink
+        exact="true"
+        to="/user/ankit/B.Tech"
+        activeclassname="active_class"
+      >
         User
       </NavLink>
       <br></br>
