@@ -16,6 +16,18 @@ const User = () => {
       <h1>
         Hello, This is User Page {name} {course}
       </h1>
+      <p>My current location is {location.pathname}</p>
+      {/* {if(location.pathname === `/users/anshu/Bsc`){
+        <button>Submit</button>
+      }} */}
+
+      {location.pathname === `/users/ankit/dee` ? (
+        <>
+          alert("You are awesome");
+          <h1>Button</h1>
+          <button onClick={() => alert("You are awesome")}>Submit</button>
+        </>
+      ) : null}
     </>
   );
 };
