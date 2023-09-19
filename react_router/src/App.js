@@ -16,8 +16,8 @@ const App = () => {
         <Route exact path="/" element={<About />} />
         {/* <Route exact path="/" render={() => <About name="About" />} /> */}
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/services" element={<Services />} />
-        <Route exact path="/explore" element={<Services />} />
+        <Route exact path="/services/:category" element={<Services />} />
+        {/* <Route exact path="/explore/:category" element={<Services />} /> */}
         {/* <Route exact path="/user" element={<User />} /> */}
         <Route exact path="/user/:name/:course" element={<User />} />
         <Route compt={<Error />} />
