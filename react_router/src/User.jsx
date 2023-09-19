@@ -21,10 +21,8 @@ const User = () => {
         <button>Submit</button>
       }} */}
 
-      {location.pathname === `/users/ankit/dee` ? (
+      {location.pathname === `/user/ankit/dee` ? (
         <>
-          alert("You are awesome");
-          <h1>Button</h1>
           <button onClick={() => alert("You are awesome")}>Submit</button>
         </>
       ) : null}
