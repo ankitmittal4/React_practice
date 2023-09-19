@@ -15,3 +15,10 @@ active_class{
   color: orange;
   border-bottom: 2px solid green;
 }
+.menu-style{
+  width: 100%;
+  line-height: 60px;
+  background-color: #20232a;
+  display: flex;
+  justify-content: space-around;
+}

@@ -12,8 +12,9 @@ const App = () => {
   return (
     <>
       <Menu></Menu>
-      <Routes>
+      <Routes className="menu-style">
         <Route exact path="/" element={<About />} />
+        {/* <Route exact path="/" render={() => <About name="About" />} /> */}
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/explore" element={<Services />} />
