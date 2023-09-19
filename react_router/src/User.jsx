@@ -9,6 +9,8 @@ import { useParams, useLocation } from "react-router-dom";
 // };
 const User = () => {
   const { name, course } = useParams();
+  const location = useLocation();
+  console.log(location);
   return (
     <>
       <h1>
