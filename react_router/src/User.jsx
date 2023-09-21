@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams, useLocation, useHistory } from "react-router-dom";
 // const User = ({ match }) => {
 //   return (
 //     <>
@@ -10,7 +10,8 @@ import { useParams, useLocation } from "react-router-dom";
 const User = () => {
   const { name, course } = useParams();
   const location = useLocation();
-  console.log(location);
+  const history = useHistory();
+  console.log(history);
   return (
     <>
       <h1>
@@ -23,7 +24,7 @@ const User = () => {
 
       {location.pathname === `/user/ankit/dee` ? (
         <>
-          <button onClick={() => alert("You are awesome")}>Submit</button>
+          <button onClick={() => history.goBack()}>Submit</button>
         </>
       ) : null}
     </>
