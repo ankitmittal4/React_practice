@@ -11,6 +11,7 @@ const Menu = () => {
         Contact Us
       </NavLink>
       <br></br>
+
       <NavLink
         exact="true"
         to="/services/machine Learning"
@@ -19,6 +20,12 @@ const Menu = () => {
         Services
       </NavLink>
       <br></br>
+      <NavLink exact="true" to="/search" activeclassname="active_class">
+        Search
+      </NavLink>
+
+      <br></br>
+
       <NavLink
         exact="true"
         to="/user/ankit/B.Tech"
