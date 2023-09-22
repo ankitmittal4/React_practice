@@ -34,6 +34,9 @@ const Menu = () => {
         User
       </NavLink>
       <br></br>
+      {/* <NavLink exact="true" to="/error" activeclassname="active_class">
+        Error
+      </NavLink> */}
     </>
   );
 };
