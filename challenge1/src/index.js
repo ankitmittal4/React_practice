@@ -17,8 +17,8 @@ const sec = currDate.getSeconds();
 const fullTime = `${hours} - ${min} - ${sec}`;
 
 const img1 = "https://picsum.photos/300/300";
-const img2 = "https://picsum.photos/250/300";
-const img3 = "https://picsum.photos/250/301";
+const img2 = "https://picsum.photos/301/300";
+const img3 = "https://picsum.photos/299/300";
 const link = "https://www.youtube.com/";
 ReactDOM.render(
   //Challenfe 1
